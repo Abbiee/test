@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Label1"; ObjectID = "TLl-zd-WxU"; */
+"TLl-zd-WxU.text" = "Label1";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "aQ5-dY-acm"; */
+"aQ5-dY-acm.title" = "Menu";
+
+/* Class = "UIBarButtonItem"; title = "Right"; ObjectID = "nbw-wI-RRI"; */
+"nbw-wI-RRI.title" = "Right";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ozm-0q-s4N"; */
+"ozm-0q-s4N.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Front"; ObjectID = "yDC-gs-bEd"; */
+"yDC-gs-bEd.title" = "Front";

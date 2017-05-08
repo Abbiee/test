@@ -14,6 +14,14 @@
 		843079391EB33C150073F008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843079371EB33C150073F008 /* LaunchScreen.storyboard */; };
 		843079441EB33C150073F008 /* hamburgerMenuSwift3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843079431EB33C150073F008 /* hamburgerMenuSwift3Tests.swift */; };
 		8430794F1EB33C150073F008 /* hamburgerMenuSwift3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430794E1EB33C150073F008 /* hamburgerMenuSwift3UITests.swift */; };
+		843079601EB33C4E0073F008 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8430795F1EB33C4E0073F008 /* SWRevealViewController.m */; };
+		843079621EB33CE40073F008 /* RevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843079611EB33CE40073F008 /* RevealViewController.swift */; };
+		843079641EB33E680073F008 /* RevealTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843079631EB33E680073F008 /* RevealTableTableViewController.swift */; };
+		843079661EB343130073F008 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843079651EB343130073F008 /* FrontViewController.swift */; };
+		843079681EB3436E0073F008 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843079671EB3436E0073F008 /* RightViewController.swift */; };
+		8430796A1EB34EAA0073F008 /* L012Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843079691EB34EAA0073F008 /* L012Localizer.swift */; };
+		8430796C1EB34EB30073F008 /* L102Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430796B1EB34EB30073F008 /* L102Language.swift */; };
+		8430796E1EB34EBA0073F008 /* MirroringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430796D1EB34EBA0073F008 /* MirroringLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,18 @@
 		8430794A1EB33C150073F008 /* hamburgerMenuSwift3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hamburgerMenuSwift3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8430794E1EB33C150073F008 /* hamburgerMenuSwift3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hamburgerMenuSwift3UITests.swift; sourceTree = "<group>"; };
 		843079501EB33C150073F008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8430795D1EB33C4E0073F008 /* hamburgerMenuSwift3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hamburgerMenuSwift3-Bridging-Header.h"; sourceTree = "<group>"; };
+		8430795E1EB33C4E0073F008 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8430795F1EB33C4E0073F008 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		843079611EB33CE40073F008 /* RevealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealViewController.swift; sourceTree = "<group>"; };
+		843079631EB33E680073F008 /* RevealTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealTableTableViewController.swift; sourceTree = "<group>"; };
+		843079651EB343130073F008 /* FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		843079671EB3436E0073F008 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		843079691EB34EAA0073F008 /* L012Localizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L012Localizer.swift; sourceTree = "<group>"; };
+		8430796B1EB34EB30073F008 /* L102Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L102Language.swift; sourceTree = "<group>"; };
+		8430796D1EB34EBA0073F008 /* MirroringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirroringLabel.swift; sourceTree = "<group>"; };
+		8430796F1EB34F850073F008 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		843079701EB34F850073F008 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +117,19 @@
 		8430792D1EB33C150073F008 /* hamburgerMenuSwift3 */ = {
 			isa = PBXGroup;
 			children = (
+				8430795C1EB33C280073F008 /* SWRevealViewController */,
 				8430792E1EB33C150073F008 /* AppDelegate.swift */,
 				843079301EB33C150073F008 /* ViewController.swift */,
+				843079611EB33CE40073F008 /* RevealViewController.swift */,
+				843079631EB33E680073F008 /* RevealTableTableViewController.swift */,
+				843079651EB343130073F008 /* FrontViewController.swift */,
+				843079671EB3436E0073F008 /* RightViewController.swift */,
+				8430796B1EB34EB30073F008 /* L102Language.swift */,
+				843079691EB34EAA0073F008 /* L012Localizer.swift */,
+				8430796D1EB34EBA0073F008 /* MirroringLabel.swift */,
 				843079321EB33C150073F008 /* Main.storyboard */,
 				843079351EB33C150073F008 /* Assets.xcassets */,
+				8430795D1EB33C4E0073F008 /* hamburgerMenuSwift3-Bridging-Header.h */,
 				843079371EB33C150073F008 /* LaunchScreen.storyboard */,
 				8430793A1EB33C150073F008 /* Info.plist */,
 			);
@@ -123,6 +152,15 @@
 				843079501EB33C150073F008 /* Info.plist */,
 			);
 			path = hamburgerMenuSwift3UITests;
+			sourceTree = "<group>";
+		};
+		8430795C1EB33C280073F008 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8430795E1EB33C4E0073F008 /* SWRevealViewController.h */,
+				8430795F1EB33C4E0073F008 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +231,7 @@
 				TargetAttributes = {
 					8430792A1EB33C150073F008 = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					8430793E1EB33C150073F008 = {
@@ -259,8 +298,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843079661EB343130073F008 /* FrontViewController.swift in Sources */,
+				8430796C1EB34EB30073F008 /* L102Language.swift in Sources */,
+				843079681EB3436E0073F008 /* RightViewController.swift in Sources */,
+				8430796A1EB34EAA0073F008 /* L012Localizer.swift in Sources */,
 				843079311EB33C150073F008 /* ViewController.swift in Sources */,
+				843079641EB33E680073F008 /* RevealTableTableViewController.swift in Sources */,
+				8430796E1EB34EBA0073F008 /* MirroringLabel.swift in Sources */,
 				8430792F1EB33C150073F008 /* AppDelegate.swift in Sources */,
+				843079601EB33C4E0073F008 /* SWRevealViewController.m in Sources */,
+				843079621EB33CE40073F008 /* RevealViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +347,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				843079331EB33C150073F008 /* Base */,
+				8430796F1EB34F850073F008 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,6 +356,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				843079381EB33C150073F008 /* Base */,
+				843079701EB34F850073F008 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -369,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -412,10 +463,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = hamburgerMenuSwift3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.hamburgerMenuSwift3.hamburgerMenuSwift3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hamburgerMenuSwift3/hamburgerMenuSwift3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +478,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = hamburgerMenuSwift3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.hamburgerMenuSwift3.hamburgerMenuSwift3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hamburgerMenuSwift3/hamburgerMenuSwift3-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
